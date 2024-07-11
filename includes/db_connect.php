@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "postgres";
-$password = "postgres";
-$dbname = "ragzzy_bakery";
+session_start();
+$servername = "localhost:3306";
+$username = "root";
+$password = "";
+$dbname = "ragzzybakery";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
